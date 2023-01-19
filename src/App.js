@@ -10,8 +10,8 @@ import Shop from './Component/Shop'
 export default function App() {
   return (
     <>
-    <Navbar />
 <Router>
+    <Navbar />
   <Routes>
     <Route exact path="/" element={<Home />}/>
     <Route exact path="/friends" element={<Friends />}/>
