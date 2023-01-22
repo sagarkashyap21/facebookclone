@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from "react-router-dom"
+
 
 export default function Friends() {
     return (
@@ -7,7 +9,7 @@ export default function Friends() {
             <div className="container" style={{}}>
                 <ul style={{listStyle: "none", display: "flex", justifyContent: "space-between" }}>
                     <li style={{ fontSize: "30px", fontWeight: "500" }}>Friends</li>
-                    <li style={{ border: "0px solid gray", fontSize: "20px", borderRadius: "50px", backgroundColor: "lightgray", width: "30px", height: "30px", marginTop: "8px" }}><a href=""><i class="fa fa-solid fa-magnifying-glass" style={{ color: "black", padding: "5px" }}></i></a></li>
+                    <li style={{ border: "0px solid gray", fontSize: "20px", borderRadius: "50px", backgroundColor: "lightgray", width: "30px", height: "30px", marginTop: "8px" }}><Link to=""><i class="fa fa-solid fa-magnifying-glass" style={{ color: "black", padding: "5px" }}></i></Link></li>
 
                 </ul>
                 <ul style={{ display: "flex", listStyle: "none" }}>
